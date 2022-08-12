@@ -36,5 +36,6 @@ function moveToPreviousSlide() {
   } else {
     slidePosition--;
   }
+
   slides[slidePosition].classList.add("carousel-item-visible");
 }
