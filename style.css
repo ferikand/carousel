@@ -1,0 +1,36 @@
+body {
+  background-color: antiquewhite;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel {
+  max-width: 600px;
+  position: relative;
+}
+
+.carousel-item {
+  display: none;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
+
+.carousel-item-visible {
+  display: block;
+}
+
+.carousel-actions {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  max-width: 600px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
